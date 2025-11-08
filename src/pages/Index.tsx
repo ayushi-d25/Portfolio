@@ -4,18 +4,6 @@ import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 
-/**
- * Index Page - Main Portfolio Page
- * 
- * Combines all portfolio sections:
- * 1. AnimatedBackground - Interactive gradient background
- * 2. Hero - Landing section with floating photo
- * 3. About - Skills and background
- * 4. Projects - Portfolio carousel
- * 5. Contact - Contact form and info
- * 
- * Each section has scroll-triggered animations and glassmorphic design
- */
 const Index = () => {
   return (
     <div className="relative">

@@ -211,16 +211,6 @@ import weatherimage from "@/assets/weather.jpg";
 import financeimage from "@/assets/fintack.jpg";
 import fruitimage from "@/assets/fruit.jpg";
 
-/**
- * Projects Component
- *
- * A carousel showcasing portfolio projects with:
- * - 3D hover tilt effects on cards
- * - Smooth slide transitions
- * - Glassmorphic card design with neon borders
- * - Glowing hover states
- */
-
 // Sample project data
 const projects = [
   {

@@ -322,7 +322,7 @@ export default function Contact() {
               {
                 icon: Phone,
                 label: "Phone",
-                value: "+91 (931) 506-5778",
+                value: "(+91) 931-506-5778",
                 href: "tel:+919315065778",
               },
               { icon: MapPin, label: "Location", value: "Delhi", href: "#" },
@@ -364,7 +364,7 @@ export default function Contact() {
                   {
                     name: "Gmail",
                     icon: <Mail size={22} />,
-                    link: "mailto:ayusi.dutta25@gmail.com",
+                    link: "mailto:ayushi.dutta25@gmail.com",
                   },
                 ].map(({ name, icon, link }) => (
                   <motion.a

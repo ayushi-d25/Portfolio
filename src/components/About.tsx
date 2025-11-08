@@ -1,16 +1,6 @@
 import { motion } from "framer-motion";
 import { Code2, Palette, Rocket, Zap } from "lucide-react";
 
-/**
- * About Component
- * 
- * Showcases skills and background with:
- * - Staggered reveal animations for skill cards
- * - Glassmorphic cards with hover effects
- * - Icon animations on scroll
- */
-
-// Skills data with icons
 const skills = [
   {
     icon: Code2,
@@ -55,9 +45,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate developer who loves turning ideas into reality through code.
-            With a keen eye for design and a commitment to excellence, I create digital
-            experiences that are both beautiful and functional.
+            A tech-savvy and articulate B.Tech Computer Science student with practical experience in building web and AI-based projects. A Hackathon winner and Best Delegate at Model United Nations, known for strong communication, leadership, and problem-solving abilities. Serving as School President honed my decision-making and people skills, helping me work collaboratively and take initiative in dynamic settings
           </p>
         </motion.div>
 
@@ -115,8 +103,8 @@ const About = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16"
         >
           {[
-            { number: "5+", label: "Projects Completed" },
-            { number: "1+", label: "Years Experience" },
+            { number: "7+", label: "Projects Completed" },
+            { number: "2+", label: "Years Experience" },
             // { number: "30+", label: "Happy Clients" },
             { number: "∞", label: "Cups of Coffee" },
           ].map((stat, index) => (
